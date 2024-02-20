@@ -1,0 +1,12 @@
+Source: ros-rolling-rig-reconfigure
+Section: misc
+Priority: optional
+Maintainer: Team Spatzenhirn <team-spatzenhirn@uni-ulm.de>
+Build-Depends: debhelper (>= 9.0.0), git, libglfw3-dev, ros-rolling-ament-cmake, ros-rolling-ament-index-cpp, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rig-reconfigure
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libglfw3-dev, ros-rolling-ament-index-cpp, ros-rolling-rclcpp, ros-rolling-ros-workspace
+Description: Standalone GUI tool for editing node parameters at runtime.
