@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+    <name>rig_reconfigure</name>
+    <version>1.4.0</version>
+    <description>Standalone GUI tool for editing node parameters at runtime.</description>
+    <maintainer email="team-spatzenhirn@uni-ulm.de">Team Spatzenhirn</maintainer>
+    <maintainer email="jonas@jonasotto.com">Jonas Otto</maintainer>
+    <maintainer email="dominik.authaler@uni-ulm.de">Dominik Authaler</maintainer>
+    <license>MIT</license>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <buildtool_depend>git</buildtool_depend>
+    <depend>libglfw3-dev</depend>
+    <depend>rclcpp</depend>
+    <depend>ament_index_cpp</depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>
